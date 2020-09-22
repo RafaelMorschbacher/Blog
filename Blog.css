@@ -1,0 +1,17 @@
+body{
+    background-color:#ebf6f5;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5cbdb9 ;
+    color: white;
+}
+#materia{
+    margin: 10px 10vw;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+#texto{
+    text-align: justify;
+}
