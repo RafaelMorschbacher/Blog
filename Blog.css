@@ -1,17 +1,72 @@
 body{
-    background-color:#ebf6f5;
+    background-color: white; 
+    font-family: 'Courier Prime', monospace;
+    margin: 0; padding: 0;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: #5cbdb9 ;
-    color: white;
+    background-color:#B71C1C;
+    color:white ;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    margin-left: 10vw;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    color: rgb(99, 99, 99);
+    font-size: 18px;
 }
 #materia{
     margin: 10px 10vw;
     padding: 15px;
     background-color: whitesmoke;
+    border-radius: 2px;
 }
-#texto{
+.foto{
+    text-align: center;
+}
+img{
+    width: 45vw;
+    border-radius: 5px;
+}
+#ilustra{
+    width: 30vw;
+}
+.texto{
     text-align: justify;
+    line-height: 25px;
+}
+
+@media (max-width:500px){
+    #materia{
+        text-align: center;
+        margin: 10px 15px;
+    }
+    nav p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    img{
+        width: 60vw;
+    }
+    #ilustra{
+        width: 50vw;
+    }
+
 }
