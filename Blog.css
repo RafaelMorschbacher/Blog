@@ -44,6 +44,9 @@ img{
     text-align: justify;
     line-height: 25px;
 }
+#clandioheart{
+    width: 40vw;
+}
 
 @media (max-width:500px){
     body{
@@ -71,6 +74,9 @@ img{
     }
     #ilustra{
         width: 50vw;
+    }
+    #clandioheart{
+        width: 60vw;
     }
 
 }
