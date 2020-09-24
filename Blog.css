@@ -48,7 +48,8 @@ img{
     text-align: center;
 }
 #pedido img{
-    width: 40vw;
+    width: 30vw;
+    margin-bottom: 50px;
 }
 
 @media (max-width:500px){
@@ -78,7 +79,7 @@ img{
     #ilustra{
         width: 50vw;
     }
-    #perido img{
+    #pedido img{
         width: 60vw;
     }
 
