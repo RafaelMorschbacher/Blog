@@ -44,7 +44,10 @@ img{
     text-align: justify;
     line-height: 25px;
 }
-#clandioheart{
+#pedido{
+    text-align: center;
+}
+#pedido img{
     width: 40vw;
 }
 
@@ -75,7 +78,7 @@ img{
     #ilustra{
         width: 50vw;
     }
-    #clandioheart{
+    #perido img{
         width: 60vw;
     }
 
